@@ -34,7 +34,7 @@ git add README.md docs assets .gitignore
 git status --short
 
 echo "→ 提交"
-git commit -m "docs: 喵呜专注产品介绍与截图（仅宣传，不含源码）" || echo "无变更可提交"
+git commit -m "docs: add product intro and screenshots" || echo "no changes"
 
 echo "→ 关联远端"
 if git remote get-url origin >/dev/null 2>&1; then
